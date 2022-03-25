@@ -120,9 +120,7 @@ const PhotoList = ({ category }) => {
     },
   ]);
 
-  console.log("photos is " + photos);
   const currentPhotos = photos.filter((photo) => photo.category === category);
-  console.log(currentPhotos);
 
   return (
     <div>
